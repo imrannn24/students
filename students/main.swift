@@ -15,6 +15,8 @@ for _ in 1...14{
     a.append(name)
 }
 print("Весь список:")
+var g = 1
 for i in a{
-    print(i)
+    print("\(g).\(i)")
+    g += 1
 }
