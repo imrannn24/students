@@ -7,5 +7,14 @@
 
 import Foundation
 
-print("Hello, World!")
+var a:[String] = []
 
+for _ in 1...14{
+    print("введите имя:")
+    var name = readLine()!
+    a.append(name)
+}
+print("Весь список:")
+for i in a{
+    print(i)
+}
